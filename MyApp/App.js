@@ -100,8 +100,8 @@ const App = () => {
     </View>
 
     <View style={styles.frequencyContainer}>
-    <Text style={styles.label}>Frequency</Text>
   <View style={styles.frequencyButtonContainer}>
+  <Text style={styles.label}>Frequency</Text>
     <Button
       title="Weekly"
       onPress={() => setFrequency('Weekly')}
@@ -179,12 +179,13 @@ const styles = StyleSheet.create({
     shadowRadius: 4,
     elevation: 5,
     padding: 20,
-    width: '80%', 
+    width: '90%', 
   },
   heading: {
     fontSize: 24,
     fontWeight: 'bold',
     marginBottom: 20,
+    textAlign:'center'
   },
   inputContainer: {
     marginBottom: 20,
